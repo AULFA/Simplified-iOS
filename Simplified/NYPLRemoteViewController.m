@@ -1,3 +1,4 @@
+#import "NYPLBasicAuth.h"
 #import "NYPLConfiguration.h"
 #import "NYPLReloadView.h"
 #import "NYPLRemoteViewController.h"
@@ -183,6 +184,17 @@
 }
 
 #pragma mark NSURLConnectionDelegate
+
+- (void)connection:(__unused NSURLConnection *)connection
+didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *const)challenge
+{
+  NYPLBasicAuthHandler(challenge,
+                       ^(__unused NSURLSessionAuthChallengeDisposition disposition,
+                         NSURLCredential *const credential)
+  {
+    [[challenge sender] useCredential:credential forAuthenticationChallenge:challenge];
+  });
+}
 
 - (void)connection:(__attribute__((unused)) NSURLConnection *)connection
   didFailWithError:(__attribute__((unused)) NSError *)error

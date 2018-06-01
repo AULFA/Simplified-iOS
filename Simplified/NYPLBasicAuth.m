@@ -1,4 +1,6 @@
 #import "NYPLAccount.h"
+#import "NYPLSettings.h"
+#import "SimplyE-Swift.h"
 
 #import "NYPLBasicAuth.h"
 
@@ -9,6 +11,12 @@ void NYPLBasicAuthHandler(NSURLAuthenticationChallenge *const challenge,
 {
   if(![challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodHTTPBasic]) {
     completionHandler(NSURLSessionAuthChallengeRejectProtectionSpace, nil);
+    return;
+  }
+
+  // LFA: Provide API key for default LFA library.
+  if([NYPLSettings sharedSettings].currentAccount.id == 0) {
+    NYPLBasicAuthCustomHandler(challenge, completionHandler, @"lfa_app", [APIKeys lfaAPIKey]);
     return;
   }
   
