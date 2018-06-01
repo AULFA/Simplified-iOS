@@ -202,7 +202,15 @@
   }
   
   NYPLSettings *settings = [NYPLSettings sharedSettings];
-  
+
+  // LFA: Skip welcome screen and force use of library 0 by default.
+  if (settings.userHasSeenWelcomeScreen == NO) {
+    settings.userHasSeenWelcomeScreen = YES;
+    [[NYPLSettings sharedSettings] setCurrentAccountIdentifier:0];
+    [self reloadSelectedLibraryAccount];
+  }
+
+  /*
   if (settings.userHasSeenWelcomeScreen == NO) {
     
     if (settings.acceptedEULABeforeMultiLibrary == YES) {
@@ -236,6 +244,7 @@
       [vc safelyPresentViewController:navController animated:YES completion:nil];
     }
   }
+  */
 }
 
 @end

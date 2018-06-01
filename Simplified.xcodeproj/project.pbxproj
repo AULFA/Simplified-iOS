@@ -39,8 +39,6 @@
 		08A352261BDE8E700040BF1D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A352251BDE8E700040BF1D /* SystemConfiguration.framework */; };
 		08A352271BDE91B80040BF1D /* libRDServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A49C25461AE05A2600D63B89 /* libRDServices.a */; };
 		08A352731BDFF5380040BF1D /* NYPLAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A352721BDFF5380040BF1D /* NYPLAlertController.m */; };
-		08C469C11BDAAEB1009D8AFD /* libADEPT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A569A2C1B8351C6003B5B61 /* libADEPT.a */; };
-		08C469C21BDAAEB1009D8AFD /* libAdobe Content Filter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7048961B94A6710046FFF0 /* libAdobe Content Filter.a */; };
 		11068C55196DD37900E8A94B /* NYPLNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 11068C54196DD37900E8A94B /* NYPLNull.m */; };
 		11078357198160A50071AB1E /* NYPLBookDownloadFailedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11078356198160A50071AB1E /* NYPLBookDownloadFailedCell.m */; };
 		1107835E19816E3D0071AB1E /* UIView+NYPLViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1107835D19816E3D0071AB1E /* UIView+NYPLViewAdditions.m */; };
@@ -463,7 +461,6 @@
 		2D382BD61D08BA99002C423D /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		2D62568A1D412BCB0080A81F /* BundledHTMLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundledHTMLViewController.swift; sourceTree = "<group>"; };
 		2D6256901D41582A0080A81F /* software-licenses.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "software-licenses.html"; sourceTree = "<group>"; };
-		2D6AF74A1E7E341F005CEC90 /* Simplified+RMSDK.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Simplified+RMSDK.xcconfig"; sourceTree = "<group>"; };
 		2D6F7CA41D910C0D000B906A /* CHRTextFieldFormatter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CHRTextFieldFormatter.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Simplified-bozbabgxnjsiwdfvcgffxbzqjxsq/Build/Products/Debug-iphonesimulator/CHRTextFieldFormatter/CHRTextFieldFormatter.framework"; sourceTree = "<group>"; };
 		2D6F7CA61D910C12000B906A /* Bugsnag.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bugsnag.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Simplified-bozbabgxnjsiwdfvcgffxbzqjxsq/Build/Products/Debug-iphonesimulator/Bugsnag/Bugsnag.framework"; sourceTree = "<group>"; };
 		2D6F7CA81D910C3C000B906A /* HelpStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HelpStack.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Simplified-bozbabgxnjsiwdfvcgffxbzqjxsq/Build/Products/Debug-iphonesimulator/HelpStack/HelpStack.framework"; sourceTree = "<group>"; };
@@ -612,8 +609,6 @@
 				03CE00EA1E0C436400C91489 /* libePub3-iOS.a in Frameworks */,
 				2D6F7CA91D910C3C000B906A /* HelpStack.framework in Frameworks */,
 				2D6F7CA71D910C12000B906A /* Bugsnag.framework in Frameworks */,
-				08C469C11BDAAEB1009D8AFD /* libADEPT.a in Frameworks */,
-				08C469C21BDAAEB1009D8AFD /* libAdobe Content Filter.a in Frameworks */,
 				08A352271BDE91B80040BF1D /* libRDServices.a in Frameworks */,
 				08A352221BDE8E560040BF1D /* libicucore.tbd in Frameworks */,
 				5AEA9E011B947419009F71DB /* libc++.dylib in Frameworks */,
@@ -954,7 +949,6 @@
 			isa = PBXGroup;
 			children = (
 				CAE35BBA1B86289500BF9BC5 /* Simplified.xcconfig */,
-				2D6AF74A1E7E341F005CEC90 /* Simplified+RMSDK.xcconfig */,
 				5A569A261B8351C6003B5B61 /* ADEPT.xcodeproj */,
 				5A7048911B94A6700046FFF0 /* Adobe Content Filter.xcodeproj */,
 				A49C25401AE05A2600D63B89 /* RDServices.xcodeproj */,
