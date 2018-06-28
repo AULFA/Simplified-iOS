@@ -1268,9 +1268,9 @@
 						TestTargetID = A823D80C192BABA400B55DE2;
 					};
 					A823D80C192BABA400B55DE2 = {
-						DevelopmentTeam = 7262U6ST2R;
+						DevelopmentTeam = W7ZY65UDQ5;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -1885,7 +1885,8 @@
 				CODE_SIGN_ENTITLEMENTS = Simplified/SimplyE.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7262U6ST2R;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7ZY65UDQ5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1903,10 +1904,10 @@
 					"$(PROJECT_DIR)/readium-sdk/Platform/Apple/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/readium-sdk/Platform/Apple/build/Release-iphoneos",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.nypl.labs.SimplyE;
+				PRODUCT_BUNDLE_IDENTIFIER = au.org.libraryforall.reader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2e185b6c-271e-4b02-a05e-860b8c3831f6";
-				PROVISIONING_PROFILE_SPECIFIER = "SimplyE Development (Keychain Migration)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "Simplified/SimplyE-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1933,8 +1934,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Simplified/SimplyE.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: The New York Library Astor, Lenox, and Tilden Foundations (7262U6ST2R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 7262U6ST2R;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7ZY65UDQ5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1956,10 +1958,10 @@
 					"$(PROJECT_DIR)/readium-sdk/Platform/Apple/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/readium-sdk/Platform/Apple/build/Release-iphoneos",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.nypl.labs.SimplyE;
+				PRODUCT_BUNDLE_IDENTIFIER = au.org.libraryforall.reader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c9650af0-4da6-4776-a387-ac577b180b7b";
-				PROVISIONING_PROFILE_SPECIFIER = "SimplyE Distribution (Keychain Migration)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Simplified/SimplyE-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
