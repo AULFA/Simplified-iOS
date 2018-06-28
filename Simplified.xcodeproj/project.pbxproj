@@ -453,7 +453,7 @@
 		2D2B47621D08F1ED007F7764 /* SimplyETests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplyETests-Bridging-Header.h"; sourceTree = "<group>"; };
 		2D2B47631D08F1ED007F7764 /* UpdateCheckTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateCheckTests.swift; sourceTree = "<group>"; };
 		2D2B47691D08F264007F7764 /* UpdateCheckUpToDate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UpdateCheckUpToDate.json; sourceTree = "<group>"; };
-		2D2B47721D08F807007F7764 /* SimplyETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2B47721D08F807007F7764 /* LFATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2B47761D08F808007F7764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../SimplyETests/Info.plist; sourceTree = "<group>"; };
 		2D2B47891D08FC78007F7764 /* UpdateCheckUnknown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UpdateCheckUnknown.json; sourceTree = "<group>"; };
 		2D2B478A1D08FC78007F7764 /* UpdateCheckNeedsUpdate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UpdateCheckNeedsUpdate.json; sourceTree = "<group>"; };
@@ -523,7 +523,7 @@
 		A4BA1D121B43046B006F83DF /* NYPLCatalogGroupedFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLCatalogGroupedFeed.m; sourceTree = "<group>"; };
 		A4E254F81B0E610900193FE4 /* NYPLBasicAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPLBasicAuth.h; sourceTree = "<group>"; };
 		A4E254F91B0E610900193FE4 /* NYPLBasicAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLBasicAuth.m; sourceTree = "<group>"; };
-		A823D80D192BABA400B55DE2 /* SimplyE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A823D80D192BABA400B55DE2 /* LFA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A823D810192BABA400B55DE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A823D812192BABA400B55DE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A823D814192BABA400B55DE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -964,8 +964,8 @@
 		A823D80E192BABA400B55DE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A823D80D192BABA400B55DE2 /* SimplyE.app */,
-				2D2B47721D08F807007F7764 /* SimplyETests.xctest */,
+				A823D80D192BABA400B55DE2 /* LFA.app */,
+				2D2B47721D08F807007F7764 /* LFATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1209,9 +1209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D2B47711D08F807007F7764 /* SimplyETests */ = {
+		2D2B47711D08F807007F7764 /* LFATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D2B47791D08F808007F7764 /* Build configuration list for PBXNativeTarget "SimplyETests" */;
+			buildConfigurationList = 2D2B47791D08F808007F7764 /* Build configuration list for PBXNativeTarget "LFATests" */;
 			buildPhases = (
 				6A7EBB20A2BB10AD7F6FF9F1 /* [CP] Check Pods Manifest.lock */,
 				2D2B476E1D08F807007F7764 /* Sources */,
@@ -1225,14 +1225,14 @@
 			dependencies = (
 				2D2B47781D08F808007F7764 /* PBXTargetDependency */,
 			);
-			name = SimplyETests;
+			name = LFATests;
 			productName = SimplyETests;
-			productReference = 2D2B47721D08F807007F7764 /* SimplyETests.xctest */;
+			productReference = 2D2B47721D08F807007F7764 /* LFATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A823D80C192BABA400B55DE2 /* SimplyE */ = {
+		A823D80C192BABA400B55DE2 /* LFA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A823D839192BABA400B55DE2 /* Build configuration list for PBXNativeTarget "SimplyE" */;
+			buildConfigurationList = A823D839192BABA400B55DE2 /* Build configuration list for PBXNativeTarget "LFA" */;
 			buildPhases = (
 				41F038C098C06905E3E27529 /* [CP] Check Pods Manifest.lock */,
 				A823D809192BABA400B55DE2 /* Sources */,
@@ -1246,9 +1246,9 @@
 			);
 			dependencies = (
 			);
-			name = SimplyE;
+			name = LFA;
 			productName = Simplified;
-			productReference = A823D80D192BABA400B55DE2 /* SimplyE.app */;
+			productReference = A823D80D192BABA400B55DE2 /* LFA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1312,8 +1312,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				A823D80C192BABA400B55DE2 /* SimplyE */,
-				2D2B47711D08F807007F7764 /* SimplyETests */,
+				A823D80C192BABA400B55DE2 /* LFA */,
+				2D2B47711D08F807007F7764 /* LFATests */,
 			);
 		};
 /* End PBXProject section */
@@ -1675,7 +1675,7 @@
 /* Begin PBXTargetDependency section */
 		2D2B47781D08F808007F7764 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A823D80C192BABA400B55DE2 /* SimplyE */;
+			target = A823D80C192BABA400B55DE2 /* LFA */;
 			targetProxy = 2D2B47771D08F808007F7764 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1818,6 +1818,7 @@
 				);
 				PRODUCT_NAME = SimplyE;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SimplyE-Swift.h";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1869,6 +1870,7 @@
 				);
 				PRODUCT_NAME = SimplyE;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SimplyE-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1982,7 +1984,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D2B47791D08F808007F7764 /* Build configuration list for PBXNativeTarget "SimplyETests" */ = {
+		2D2B47791D08F808007F7764 /* Build configuration list for PBXNativeTarget "LFATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D2B477A1D08F808007F7764 /* Debug */,
@@ -2000,7 +2002,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A823D839192BABA400B55DE2 /* Build configuration list for PBXNativeTarget "SimplyE" */ = {
+		A823D839192BABA400B55DE2 /* Build configuration list for PBXNativeTarget "LFA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A823D83A192BABA400B55DE2 /* Debug */,
