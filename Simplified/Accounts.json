@@ -12,7 +12,7 @@
  "supportsReservations" : false,
  "supportsCardCreator" : false,
  "catalogUrl" : "https://lfa.cantookstation.com/catalog.atom",
- "supportEmail" : "",
+ "supportEmail" : "help@libraryforall.org.au",
  "mainColor" : "#23A5A6",
  "authPasscodeLength" : 4,
  "authPasscodeAllowsLetters" : false
