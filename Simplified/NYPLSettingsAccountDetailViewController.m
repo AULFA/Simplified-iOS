@@ -209,7 +209,10 @@ CGFloat const verticalMarginPadding = 2.0;
 {
   NSMutableArray *section0;
   if (!self.selectedAccount.needsAuth) {
-    section0 = @[@(CellKindAgeCheck)].mutableCopy;
+    // LFA: This logic is an NYPL-specific hack. We do not want to
+    // show this in the general case.
+    // section0 = @[@(CellKindAgeCheck)].mutableCopy;
+    section0 = [NSMutableArray array];
   } else if (self.selectedAccount.pinRequired) {
     section0 = @[@(CellKindBarcode),
                  @(CellKindPIN),
