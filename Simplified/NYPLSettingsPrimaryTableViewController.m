@@ -107,6 +107,7 @@ didSelectRowAtIndexPath:(NSIndexPath *const)indexPath
 {
   NYPLSettingsPrimaryTableViewControllerItem item = SettingsItemFromIndexPath(indexPath);
   [self.delegate settingsPrimaryTableViewController:self didSelectItem:item];
+  [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (CGFloat)tableView:(__unused UITableView *)tableView heightForFooterInSection:(NSInteger)section
