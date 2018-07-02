@@ -109,11 +109,8 @@ ontoPrimaryViewController:(__attribute__((unused)) UIViewController *)primaryVie
       viewController = [[NYPLSettingsAccountsTableViewController alloc] initWithAccounts:accounts];
       break;
     case NYPLSettingsPrimaryTableViewControllerItemAbout:
-      viewController = [[RemoteHTMLViewController alloc]
-                        initWithURL:[NSURL URLWithString:NYPLAcknowledgementsURLString]
-                        title:NSLocalizedString(@"AboutApp", nil)
-                        failureMessage:NSLocalizedString(@"SettingsConnectionFailureMessage", nil)];
-      break;
+      [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://libraryforall.org.au/about-us/"]];
+      return;
     case NYPLSettingsPrimaryTableViewControllerItemEULA:
       viewController = [[BundledHTMLViewController alloc]
                         initWithFileURL:[[NSBundle mainBundle] URLForResource:@"eula" withExtension:@"html"]
@@ -126,26 +123,6 @@ ontoPrimaryViewController:(__attribute__((unused)) UIViewController *)primaryVie
                                          withExtension:@"html"]
                         title:NSLocalizedString(@"SoftwareLicenses", nil)];
       break;
-    case NYPLSettingsPrimaryTableViewControllerItemHelpStack: {
-      [[HSHelpStack instance] setThemeFrompList:@"HelpStackTheme"];
-      HSHelpStack *helpStack = [HSHelpStack instance];
-      helpStack.gear = [APIKeys topLevelHelpStackGear];
-
-      if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad &&
-         ([[NYPLRootTabBarController sharedController] traitCollection].horizontalSizeClass != UIUserInterfaceSizeClassCompact)) {
-        UIStoryboard* helpStoryboard = [UIStoryboard storyboardWithName:@"HelpStackStoryboard" bundle:[NSBundle mainBundle]];
-        UINavigationController *mainNavVC = [helpStoryboard instantiateInitialViewController];
-        UIViewController *firstVC = mainNavVC.viewControllers.firstObject;
-        firstVC.navigationItem.leftBarButtonItem = nil;
-        [self showDetailViewController:mainNavVC sender:self];
-      } else {
-        [settingsPrimaryTableViewController.tableView
-         deselectRowAtIndexPath:NYPLSettingsPrimaryTableViewControllerIndexPathFromSettingsItem(item)
-         animated:YES];
-        [[HSHelpStack instance] showHelp:self];
-      }
-      return;
-    }
     case NYPLSettingsPrimaryTableViewControllerItemCustomFeedURL:
       return;
   }
