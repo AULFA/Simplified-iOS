@@ -115,10 +115,9 @@ ontoPrimaryViewController:(__attribute__((unused)) UIViewController *)primaryVie
                         failureMessage:NSLocalizedString(@"SettingsConnectionFailureMessage", nil)];
       break;
     case NYPLSettingsPrimaryTableViewControllerItemEULA:
-      viewController = [[RemoteHTMLViewController alloc]
-                        initWithURL:[NSURL URLWithString:NYPLUserAgreementURLString]
-                        title:NSLocalizedString(@"EULA", nil)
-                        failureMessage:NSLocalizedString(@"SettingsConnectionFailureMessage", nil)];
+      viewController = [[BundledHTMLViewController alloc]
+                        initWithFileURL:[[NSBundle mainBundle] URLForResource:@"eula" withExtension:@"html"]
+                        title:NSLocalizedString(@"EULA", nil)];
       break;
     case NYPLSettingsPrimaryTableViewControllerItemSoftwareLicenses:
       viewController = [[BundledHTMLViewController alloc]
