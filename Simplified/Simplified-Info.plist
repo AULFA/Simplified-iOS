@@ -20,8 +20,6 @@
 	<string>1.0.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleSpokenName</key>
-	<string>Simply E</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -47,9 +45,9 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>SimplyE requires access to the camera in order to scan your library card.</string>
+	<string>LFA requires access to the camera in order to scan your library card.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This service is available to New York State residents only. In order to determine your location, please allow access</string>
+	<string>In order to determine your location, please allow access.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>We use your screenshots to help support you by understanding what you see on the screen or share with us via screen capture. You must upload those images and we do not do that in the background or programmatically.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
