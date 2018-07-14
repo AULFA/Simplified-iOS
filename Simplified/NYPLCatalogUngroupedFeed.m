@@ -122,10 +122,30 @@ handler:(void (^)(NYPLCatalogUngroupedFeed *category))handler
       continue;
     }
   }
+
+  // LFA: Add an "All Books" Category facet.
+  if (facetGroupNamesToMutableFacetArrays[@"Category"]) {
+    NSMutableArray<NYPLCatalogFacet *> *const facets = facetGroupNamesToMutableFacetArrays[@"Category"];
+    BOOL isAnyFacetActive = NO;
+    for (NYPLCatalogFacet *const facet in facets) {
+      if (facet.active) {
+        isAnyFacetActive = YES;
+        break;
+      }
+    }
+    [facets insertObject:[[NYPLCatalogFacet alloc]
+                          initWithActive:!isAnyFacetActive
+                          href:[NSURL URLWithString:@"https://lfa.cantookstation.com/catalog.atom"]
+                          title:@"All Books"]
+                 atIndex:0];
+  }
   
   // Care is taken to preserve facet and facet group order from the original feed.
   NSMutableArray *const facetGroups = [NSMutableArray arrayWithCapacity:facetGroupNames.count];
   for(NSString *const facetGroupName in facetGroupNames) {
+    // LFA: Skip non-Category facets.
+    if (![facetGroupName isEqualToString:@"Category"]) continue;
+
     [facetGroups addObject:[[NYPLCatalogFacetGroup alloc]
                             initWithFacets:facetGroupNamesToMutableFacetArrays[facetGroupName]
                             name:facetGroupName]];
