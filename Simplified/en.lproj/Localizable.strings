@@ -20,7 +20,7 @@
 "BorrowFailed" = "Borrowing failed";
 "BorrowCouldNotBeCompletedFormat" = "Borrowing %@ could not be completed.";
 "Cancel" = "Cancel";
-"Catalog" = "Catalog";
+"Catalog" = "Catalogue";
 "Categories" = "Categories";
 "Category" = "Category";
 "CheckConnection" = "Please check your connection and try again.";
