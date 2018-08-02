@@ -163,6 +163,10 @@ function Simplified() {
   this.linkOpenDyslexicFonts = function() {
     var id = 'simplified-opendyslexic';
     var innerDocument = window.frames['epubContentIframe'].document;
+    if (!innerDocument) {
+      // iOS >= 12
+      innerDocument = window.frames['epubContentIframe'].contentDocument;
+    }
     if (innerDocument.getElementById(id)) {
       return;
     }
