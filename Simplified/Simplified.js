@@ -148,6 +148,11 @@ function Simplified() {
     innerDocument.addEventListener("touchend", handleTouchEnd, false);
 
     // Set up the page turning animation.
+    var innerDocument = iframe.document;
+    if (!innerDocument) {
+      // iOS >= 12
+      innerDocument = iframe.contentDocument;
+    }
     innerDocument.documentElement.style["transition"] = "left 0.2s";
 
     // Allow OpenDyslexic fonts to work.
