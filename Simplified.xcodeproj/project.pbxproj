@@ -113,6 +113,7 @@
 		11E0208D197F05D9009DEA93 /* UIFont+NYPLSystemFontOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E0208C197F05D9009DEA93 /* UIFont+NYPLSystemFontOverride.m */; };
 		11F3771F19DB62B000487769 /* NYPLFacetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F3771E19DB62B000487769 /* NYPLFacetView.m */; };
 		11F3773319E0876F00487769 /* NYPLCatalogFacet.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F3773219E0876F00487769 /* NYPLCatalogFacet.m */; };
+		1CB8A4E2DD070A7465E28D44 /* Pods_LFATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E889992555B422D9FE6D3A5 /* Pods_LFATests.framework */; };
 		2D2B477C1D08F821007F7764 /* UpdateCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B47631D08F1ED007F7764 /* UpdateCheckTests.swift */; };
 		2D2B477E1D08F82C007F7764 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D382BD61D08BA99002C423D /* Log.swift */; };
 		2D2B47841D08F8E2007F7764 /* UpdateCheckUpToDate.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B47691D08F264007F7764 /* UpdateCheckUpToDate.json */; };
@@ -138,7 +139,6 @@
 		2DEF10BA201ECCEA0082843A /* NYPLMyBooksSimplifiedBearerToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEF10B9201ECCEA0082843A /* NYPLMyBooksSimplifiedBearerToken.m */; };
 		2DF321831DC3B83500E1858F /* NYPLAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF321821DC3B83500E1858F /* NYPLAnnotations.swift */; };
 		2DFAC8ED1CD8DDD1003D9EC0 /* NYPLOPDSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAC8EC1CD8DDD1003D9EC0 /* NYPLOPDSCategory.m */; };
-		5A5B90181B946D8B002C53E9 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5B90141B946CBD002C53E9 /* libstdc++.6.0.9.dylib */; };
 		5A5B901B1B946FAD002C53E9 /* NYPLReaderContainerDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B901A1B946FAD002C53E9 /* NYPLReaderContainerDelegate.mm */; };
 		5A69290E1B95ACC600FB4C10 /* readium-shared-js_all.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A69290D1B95ACC600FB4C10 /* readium-shared-js_all.js */; };
 		5A6929101B95ACD100FB4C10 /* sdk.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A69290F1B95ACD100FB4C10 /* sdk.css */; };
@@ -151,7 +151,7 @@
 		84B7A3471B84E8FE00584FB2 /* OpenDyslexic3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B7A3441B84E8FE00584FB2 /* OpenDyslexic3-Bold.ttf */; };
 		84B7A3481B84E8FE00584FB2 /* OpenDyslexic3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B7A3451B84E8FE00584FB2 /* OpenDyslexic3-Regular.ttf */; };
 		84FCD2611B7BA79200BFEDD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FCD2601B7BA79200BFEDD9 /* CoreLocation.framework */; };
-		938067EE8EA3BF40E9651E5A /* Pods_SimplyE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DECDF1D20041A7E0088E7D6 /* Pods_SimplyE.framework */; };
+		92F76FCFF694DFAB1A26E325 /* Pods_LFA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A82A24D779831E271A9BC9 /* Pods_LFA.framework */; };
 		A4276F481B00046300CA7194 /* NYPLMyBooksDownloadInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4276F471B00046300CA7194 /* NYPLMyBooksDownloadInfo.m */; };
 		A42E0DF11B3F5A490095EBAE /* NYPLRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E0DF01B3F5A490095EBAE /* NYPLRemoteViewController.m */; };
 		A42E0DF41B40F4E00095EBAE /* NYPLCatalogFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E0DF31B40F4E00095EBAE /* NYPLCatalogFeedViewController.m */; };
@@ -195,7 +195,6 @@
 		E6D775421F9FE0AF00C0B722 /* NYPLBarcodeScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D7753D1F9FE0AF00C0B722 /* NYPLBarcodeScanningViewController.m */; };
 		E6DA7EA01F2A718600CFBEC8 /* NYPLBookAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA7E9F1F2A718600CFBEC8 /* NYPLBookAuthor.swift */; };
 		E6F26E731DFF672F00C103CA /* NYPLDirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F26E721DFF672F00C103CA /* NYPLDirectoryManager.swift */; };
-		EC89BB22576495E8A359D77E /* Pods_SimplyE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBF380CA3C6978E66F4EFAB /* Pods_SimplyE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -286,6 +285,7 @@
 		08A352711BDFF5380040BF1D /* NYPLAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPLAlertController.h; sourceTree = "<group>"; };
 		08A352721BDFF5380040BF1D /* NYPLAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLAlertController.m; sourceTree = "<group>"; };
 		08B3CF851BF0F8FA00E6485E /* libBugsnag.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBugsnag.a; path = "Pods/../build/Debug-iphoneos/libBugsnag.a"; sourceTree = "<group>"; };
+		08D6CDD199BD0C05878C8761 /* Pods-LFATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFATests/Pods-LFATests.debug.xcconfig"; sourceTree = "<group>"; };
 		11068C53196DD37900E8A94B /* NYPLNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPLNull.h; sourceTree = "<group>"; };
 		11068C54196DD37900E8A94B /* NYPLNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLNull.m; sourceTree = "<group>"; };
 		11078355198160A50071AB1E /* NYPLBookDownloadFailedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPLBookDownloadFailedCell.h; sourceTree = "<group>"; };
@@ -451,6 +451,7 @@
 		11F54C2419410BE40086FCAF /* single_entry.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = single_entry.xml; sourceTree = "<group>"; };
 		11F54C2619410C700086FCAF /* NYPLOPDSEntryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLOPDSEntryTests.m; sourceTree = "<group>"; };
 		11F54C2919423A040086FCAF /* NYPLOPDSLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLOPDSLinkTests.m; sourceTree = "<group>"; };
+		197B300D42D78F5C1A14765F /* Pods-LFATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFATests/Pods-LFATests.release.xcconfig"; sourceTree = "<group>"; };
 		2D2B47621D08F1ED007F7764 /* SimplyETests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplyETests-Bridging-Header.h"; sourceTree = "<group>"; };
 		2D2B47631D08F1ED007F7764 /* UpdateCheckTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateCheckTests.swift; sourceTree = "<group>"; };
 		2D2B47691D08F264007F7764 /* UpdateCheckUpToDate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UpdateCheckUpToDate.json; sourceTree = "<group>"; };
@@ -487,7 +488,9 @@
 		2DF321821DC3B83500E1858F /* NYPLAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYPLAnnotations.swift; sourceTree = "<group>"; };
 		2DFAC8EB1CD8DDD1003D9EC0 /* NYPLOPDSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPLOPDSCategory.h; sourceTree = "<group>"; };
 		2DFAC8EC1CD8DDD1003D9EC0 /* NYPLOPDSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLOPDSCategory.m; sourceTree = "<group>"; };
+		2E889992555B422D9FE6D3A5 /* Pods_LFATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBF380CA3C6978E66F4EFAB /* Pods_SimplyE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplyE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A82A24D779831E271A9BC9 /* Pods_LFA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A7B7786F9B146602623617 /* Pods-SimplyETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyETests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyETests/Pods-SimplyETests.release.xcconfig"; sourceTree = "<group>"; };
 		579E9BC126424F2B79C0FE7E /* Pods-SimplyETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyETests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyETests/Pods-SimplyETests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A569A261B8351C6003B5B61 /* ADEPT.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ADEPT.xcodeproj; path = "adept-ios/ADEPT.xcodeproj"; sourceTree = "<group>"; };
@@ -548,12 +551,14 @@
 		AE77EDCF05BE5D54CF8E0E70 /* NYPLOPDSType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPLOPDSType.h; sourceTree = "<group>"; };
 		AE77EFD5622206475B6715A9 /* NYPLOPDSType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLOPDSType.m; sourceTree = "<group>"; };
 		B1849A8E1AD3E32A24E7A4CC /* Pods_SimplyETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplyETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B415BF681D7B40CE72A5FBEE /* Pods-LFA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFA/Pods-LFA.debug.xcconfig"; sourceTree = "<group>"; };
 		B54F998F1BACB0CD0033F303 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
 		B54F99901BACB0CE0033F303 /* libHelpStack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHelpStack.a; path = "Pods/../build/Debug-iphoneos/libHelpStack.a"; sourceTree = "<group>"; };
 		B594C7551BB06F40000028F5 /* HelpStackTheme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HelpStackTheme.plist; sourceTree = "<group>"; };
 		B5ED41D81B8F6E2E009FC164 /* NYPLBookButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPLBookButtonsView.h; sourceTree = "<group>"; };
 		B5ED41D91B8F6E2E009FC164 /* NYPLBookButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPLBookButtonsView.m; sourceTree = "<group>"; };
 		CAE35BBA1B86289500BF9BC5 /* Simplified.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Simplified.xcconfig; sourceTree = "<group>"; };
+		D31696662801B8367527A4CC /* Pods-LFA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFA.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFA/Pods-LFA.release.xcconfig"; sourceTree = "<group>"; };
 		D787E8431FB6B0290016D9D5 /* NYPLSettingsAdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYPLSettingsAdvancedViewController.swift; sourceTree = "<group>"; };
 		DE9D07935ED4E0F0BB8AD7B7 /* Pods-SimplyE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyE.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyE/Pods-SimplyE.release.xcconfig"; sourceTree = "<group>"; };
 		E61D7F631F6AC78B0091C781 /* SimplyE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimplyE.entitlements; sourceTree = "<group>"; };
@@ -593,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3CFADEC0E3E7F1956903B43 /* Pods_SimplyETests.framework in Frameworks */,
+				1CB8A4E2DD070A7465E28D44 /* Pods_LFATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +620,6 @@
 				08A352271BDE91B80040BF1D /* libRDServices.a in Frameworks */,
 				08A352221BDE8E560040BF1D /* libicucore.tbd in Frameworks */,
 				5AEA9E011B947419009F71DB /* libc++.dylib in Frameworks */,
-				5A5B90181B946D8B002C53E9 /* libstdc++.6.0.9.dylib in Frameworks */,
 				2DA4F2331C68363B008853D7 /* LocalAuthentication.framework in Frameworks */,
 				08A352261BDE8E700040BF1D /* SystemConfiguration.framework in Frameworks */,
 				08A352241BDE8E640040BF1D /* Security.framework in Frameworks */,
@@ -625,8 +630,7 @@
 				1112A8431A3249B4002B8CC1 /* libTenPrintCover.a in Frameworks */,
 				119503E91993F919009FB788 /* libz.dylib in Frameworks */,
 				119503E71993F914009FB788 /* libxml2.dylib in Frameworks */,
-				EC89BB22576495E8A359D77E /* Pods_SimplyE.framework in Frameworks */,
-				938067EE8EA3BF40E9651E5A /* Pods_SimplyE.framework in Frameworks */,
+				92F76FCFF694DFAB1A26E325 /* Pods_LFA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,6 +939,10 @@
 				56A7B7786F9B146602623617 /* Pods-SimplyETests.release.xcconfig */,
 				8499EE06365A73ACE6116D3C /* Pods-SimplyE.debug.xcconfig */,
 				DE9D07935ED4E0F0BB8AD7B7 /* Pods-SimplyE.release.xcconfig */,
+				B415BF681D7B40CE72A5FBEE /* Pods-LFA.debug.xcconfig */,
+				D31696662801B8367527A4CC /* Pods-LFA.release.xcconfig */,
+				08D6CDD199BD0C05878C8761 /* Pods-LFATests.debug.xcconfig */,
+				197B300D42D78F5C1A14765F /* Pods-LFATests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1019,6 +1027,8 @@
 				A823D829192BABA400B55DE2 /* XCTest.framework */,
 				2FBF380CA3C6978E66F4EFAB /* Pods_SimplyE.framework */,
 				B1849A8E1AD3E32A24E7A4CC /* Pods_SimplyETests.framework */,
+				32A82A24D779831E271A9BC9 /* Pods_LFA.framework */,
+				2E889992555B422D9FE6D3A5 /* Pods_LFATests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1220,8 +1230,6 @@
 				2D2B476E1D08F807007F7764 /* Sources */,
 				2D2B476F1D08F807007F7764 /* Frameworks */,
 				2D2B47701D08F807007F7764 /* Resources */,
-				B487400EDB77097CB06492D7 /* [CP] Embed Pods Frameworks */,
-				EF59547DD7650F380BEFECAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1243,7 +1251,6 @@
 				A823D80B192BABA400B55DE2 /* Resources */,
 				FE8719C55955B22F68EDF819 /* Upload Bugsnag dSYM */,
 				8ED1E1320C2F37F0410DA796 /* [CP] Embed Pods Frameworks */,
-				7D35AB55AEA925FC3399FA2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1410,7 +1417,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimplyE-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LFA-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1428,26 +1435,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimplyETests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LFATests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D35AB55AEA925FC3399FA2A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplyE/Pods-SimplyE-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8ED1E1320C2F37F0410DA796 /* [CP] Embed Pods Frameworks */ = {
@@ -1456,7 +1448,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SimplyE/Pods-SimplyE-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-LFA/Pods-LFA-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Bugsnag/Bugsnag.framework",
 				"${BUILT_PRODUCTS_DIR}/HelpStack/HelpStack.framework",
@@ -1477,37 +1469,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplyE/Pods-SimplyE-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B487400EDB77097CB06492D7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplyETests/Pods-SimplyETests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF59547DD7650F380BEFECAF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplyETests/Pods-SimplyETests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFA/Pods-LFA-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE8719C55955B22F68EDF819 /* Upload Bugsnag dSYM */ = {
@@ -1717,7 +1679,7 @@
 /* Begin XCBuildConfiguration section */
 		2D2B477A1D08F808007F7764 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 579E9BC126424F2B79C0FE7E /* Pods-SimplyETests.debug.xcconfig */;
+			baseConfigurationReference = 08D6CDD199BD0C05878C8761 /* Pods-LFATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1744,7 +1706,7 @@
 		};
 		2D2B477B1D08F808007F7764 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56A7B7786F9B146602623617 /* Pods-SimplyETests.release.xcconfig */;
+			baseConfigurationReference = 197B300D42D78F5C1A14765F /* Pods-LFATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1884,7 +1846,7 @@
 		};
 		A823D83A192BABA400B55DE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8499EE06365A73ACE6116D3C /* Pods-SimplyE.debug.xcconfig */;
+			baseConfigurationReference = B415BF681D7B40CE72A5FBEE /* Pods-LFA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1933,7 +1895,7 @@
 		};
 		A823D83B192BABA400B55DE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE9D07935ED4E0F0BB8AD7B7 /* Pods-SimplyE.release.xcconfig */;
+			baseConfigurationReference = D31696662801B8367527A4CC /* Pods-LFA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

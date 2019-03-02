@@ -5,7 +5,7 @@ platform :ios, '8.0'
 
 inhibit_all_warnings!
 
-target 'SimplyE' do
+target 'LFA' do
 
   use_frameworks!
 
@@ -15,7 +15,7 @@ target 'SimplyE' do
   pod 'SQLite.swift', '~> 0.11.4'
   pod 'ZXingObjC', '~> 3.2.1'
 
-  target 'SimplyETests' do
+  target 'LFATests' do
     inherit! :search_paths
   end
 end

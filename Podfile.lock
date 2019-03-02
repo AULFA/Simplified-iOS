@@ -58,6 +58,14 @@ DEPENDENCIES:
   - SQLite.swift (~> 0.11.4)
   - ZXingObjC (~> 3.2.1)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Bugsnag
+    - PureLayout
+    - SQLite.swift
+    - ZXingObjC
+
 EXTERNAL SOURCES:
   HelpStack:
     :git: https://github.com/NYPL-Simplified/helpstack-ios
@@ -81,6 +89,6 @@ SPEC CHECKSUMS:
   SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
   ZXingObjC: 2c95a0dc52daac69b23ec78fad8fa2fec05f8981
 
-PODFILE CHECKSUM: 193afbcdbeb69b8ba52f8f24ede9ea901cb334d1
+PODFILE CHECKSUM: 1b2328d059939ebcedec6d8ea9ba957be2511d13
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

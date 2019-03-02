@@ -1,5 +1,3 @@
-#include "Simplified+RMSDK.xcconfig"
-
 FEATURE_DRM_CONNECTOR=0
 
 HEADER_SEARCH_PATHS = $(inherited) "$(SDKROOT)/usr/include/libxml2" "$(SRCROOT)/readium-sdk/Platform/Apple/RDServices" "$(SRCROOT)/readium-sdk/Platform/Apple/include" "$(SRCROOT)/tenprintcover-ios/TenPrintCover" "$(SRCROOT)/adept-ios" "$(SRCROOT)/adobe-content-filter/public"
